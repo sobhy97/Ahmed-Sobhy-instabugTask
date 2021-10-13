@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59987" started-at="2021-10-13T16:39:03 EET" finished-at="2021-10-13T16:40:03 EET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59987" started-at="2021-10-13T16:39:03 EET" finished-at="2021-10-13T16:40:03 EET">
+      <class name="tests.SearchByKeyboardTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchByKeyboardTest@5a8806ef]" name="setUp" is-config="true" duration-ms="3735" started-at="2021-10-13T16:39:11 EET" finished-at="2021-10-13T16:39:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchByWords()[pri:0, instance:tests.SearchByKeyboardTest@5a8806ef]" name="searchByWords" duration-ms="3630" started-at="2021-10-13T16:39:15 EET" finished-at="2021-10-13T16:39:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByWords -->
+      </class> <!-- tests.SearchByKeyboardTest -->
+      <class name="tests.ClearSearchFieldTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ClearSearchFieldTest@67205a84]" name="setUp" is-config="true" duration-ms="5777" started-at="2021-10-13T16:39:40 EET" finished-at="2021-10-13T16:39:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clearTextOnField()[pri:0, instance:tests.ClearSearchFieldTest@67205a84]" name="clearTextOnField" duration-ms="675" started-at="2021-10-13T16:39:45 EET" finished-at="2021-10-13T16:39:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTextOnField -->
+      </class> <!-- tests.ClearSearchFieldTest -->
+      <class name="tests.SearchByGoogleBttnTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchByGoogleBttnTest@9660f4e]" name="setUp" is-config="true" duration-ms="5322" started-at="2021-10-13T16:39:03 EET" finished-at="2021-10-13T16:39:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnSearchBttn()[pri:0, instance:tests.SearchByGoogleBttnTest@9660f4e]" name="clickOnSearchBttn" duration-ms="2516" started-at="2021-10-13T16:39:09 EET" finished-at="2021-10-13T16:39:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchBttn -->
+      </class> <!-- tests.SearchByGoogleBttnTest -->
+      <class name="tests.AutoCompleteSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutoCompleteSearchTest@6c49835d]" name="setUp" is-config="true" duration-ms="3770" started-at="2021-10-13T16:39:19 EET" finished-at="2021-10-13T16:39:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectFromSuggestionList()[pri:0, instance:tests.AutoCompleteSearchTest@6c49835d]" name="selectFromSuggestionList" duration-ms="5658" started-at="2021-10-13T16:39:22 EET" finished-at="2021-10-13T16:39:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromSuggestionList -->
+      </class> <!-- tests.AutoCompleteSearchTest -->
+      <class name="tests.FullCycleSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.FullCycleSearchTest@5e853265]" name="setUp" is-config="true" duration-ms="3943" started-at="2021-10-13T16:39:28 EET" finished-at="2021-10-13T16:39:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openLinkAfterSearch()[pri:0, instance:tests.FullCycleSearchTest@5e853265]" name="openLinkAfterSearch" duration-ms="7568" started-at="2021-10-13T16:39:32 EET" finished-at="2021-10-13T16:39:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLinkAfterSearch -->
+      </class> <!-- tests.FullCycleSearchTest -->
+      <class name="tests.GoogleImageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.GoogleImageTest@5d76b067]" name="setUp" is-config="true" duration-ms="6327" started-at="2021-10-13T16:39:53 EET" finished-at="2021-10-13T16:40:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleImageSearch()[pri:0, instance:tests.GoogleImageTest@5d76b067]" name="googleImageSearch" duration-ms="3809" started-at="2021-10-13T16:40:00 EET" finished-at="2021-10-13T16:40:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleImageSearch -->
+      </class> <!-- tests.GoogleImageTest -->
+      <class name="tests.GmailSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.GmailSearchTest@7d0587f1]" name="setUp" is-config="true" duration-ms="3901" started-at="2021-10-13T16:39:46 EET" finished-at="2021-10-13T16:39:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openGmailScreen()[pri:0, instance:tests.GmailSearchTest@7d0587f1]" name="openGmailScreen" duration-ms="3255" started-at="2021-10-13T16:39:50 EET" finished-at="2021-10-13T16:39:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmailScreen -->
+      </class> <!-- tests.GmailSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
